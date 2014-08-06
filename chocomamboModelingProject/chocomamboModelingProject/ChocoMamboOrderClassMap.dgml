@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1)" Category="CodeSchema_Solution" Bounds="0,555.02,95.1266666666667,25.96" Label="ChocoMambo" />
+    <Node Id="(@4 @2 @5 Member=(Name=getRawIngredients OverloadingParameters=[(@7 Namespace=System Type=Int64),(@7 Namespace=System Type=String)]))" Category="CodeSchema_Method" Bounds="375.395,32.0000000000001,140.066666666667,26" CodeSchemaProperty_IsPublic="True" CommonLabel="getRawIngredients" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="getRawIngredients" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=97 StartCharacterOffset=8 EndLineNumber=97 EndCharacterOffset=8)" />
+    <Node Id="(@4 @2 @5 Member=(Name=refreshDataSet OverloadingParameters=[(@9 Namespace=System.Data Type=DataSet)]))" Category="CodeSchema_Method" Bounds="385.953333333333,177,118.95,26" CodeSchemaProperty_IsPublic="True" CommonLabel="refreshDataSet" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="refreshDataSet" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=185 StartCharacterOffset=8 EndLineNumber=185 EndCharacterOffset=8)" />
+    <Node Id="(@4 @2 @5 Member=OrderLineClass)" Category="CodeSchema_Property" Bounds="385.433333333333,845,119.99,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="OrderLineClass" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=63 StartCharacterOffset=8 EndLineNumber=63 EndCharacterOffset=8)" />
+    <Node Id="(@4 @2 @5 Member=PKID)" Category="CodeSchema_Property" Bounds="412.285,498,66.2866666666666,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="PKID" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=58 StartCharacterOffset=8 EndLineNumber=58 EndCharacterOffset=8)" />
+    <Node Id="(@4 @2 @5 Member=deleteAllOrderLines)" Category="CodeSchema_Method" Bounds="372.99,89.0000000000001,144.876666666667,26" CodeSchemaProperty_IsPublic="True" CommonLabel="deleteAllOrderLines" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="deleteAllOrderLines" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=118 StartCharacterOffset=8 EndLineNumber=118 EndCharacterOffset=8)" />
+    <Node Id="(@4 @2 @5 Member=getBranch)" Category="CodeSchema_Method" Bounds="398.081666666666,353,94.6933333333334,26" CodeSchemaProperty_IsPublic="True" CommonLabel="getBranch" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="getBranch" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=110 StartCharacterOffset=8 EndLineNumber=110 EndCharacterOffset=8)" />
+    <Node Id="(@4 @2 @5 Member=getOrderLinesTable)" Category="CodeSchema_Method" Bounds="373.181666666667,441,144.493333333333,26" CodeSchemaProperty_IsPublic="True" CommonLabel="getOrderLinesTable" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="getOrderLinesTable" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=114 StartCharacterOffset=8 EndLineNumber=114 EndCharacterOffset=8)" />
+    <Node Id="(@4 @2 @5 Member=getSuppliers)" Category="CodeSchema_Method" Bounds="391.91,757,107.036666666667,26" CodeSchemaProperty_IsPublic="True" CommonLabel="getSuppliers" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="getSuppliers" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=106 StartCharacterOffset=8 EndLineNumber=106 EndCharacterOffset=8)" />
+    <Node Id="@10" Category="CodeSchema_Method" Bounds="409.56,643,71.7366666666667,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Order" FunctionTypeFlags="Constructor" Icon="Microsoft.VisualStudio.Method.Public" Label="Order" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=32 StartCharacterOffset=8 EndLineNumber=32 EndCharacterOffset=8)" />
+    <Node Id="@11" Category="CodeSchema_Method" Bounds="409.56,555,71.7366666666667,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Order" FunctionTypeFlags="Constructor" Icon="Microsoft.VisualStudio.Method.Public" Label="Order" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=24 StartCharacterOffset=8 EndLineNumber=24 EndCharacterOffset=8)" />
+    <Node Id="@12" Category="CodeSchema_Method" Bounds="555.923333333333,309,122.433333333333,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="addNewRecord" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Private" Label="addNewRecord" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=155 StartCharacterOffset=8 EndLineNumber=155 EndCharacterOffset=8)" />
+    <Node Id="@13" Category="CodeSchema_Method" Bounds="565.056666666667,877,104.166666666667,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="assignFields" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Private" Label="assignFields" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=134 StartCharacterOffset=8 EndLineNumber=134 EndCharacterOffset=8)" />
+    <Node Id="@14" Category="CodeSchema_Property" Bounds="771.255,164,77.2833333333333,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="Branch" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=57 StartCharacterOffset=8 EndLineNumber=57 EndCharacterOffset=8)" />
+    <Node Id="@15" Category="CodeSchema_Method" Bounds="547.866666666667,397,138.546666666667,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="createRelationship" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Private" Label="createRelationship" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=89 StartCharacterOffset=8 EndLineNumber=89 EndCharacterOffset=8)" />
+    <Node Id="@16" Category="CodeSchema_Method" Bounds="564.38,599,105.52,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="loadDataSet" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Private" Label="loadDataSet" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=73 StartCharacterOffset=8 EndLineNumber=73 EndCharacterOffset=8)" />
+    <Node Id="@17" Category="CodeSchema_Property" Bounds="561.206666666666,801,111.866666666667,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="OrderDataset" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=52 StartCharacterOffset=8 EndLineNumber=52 EndCharacterOffset=8)" />
+    <Node Id="@18" Category="CodeSchema_Property" Bounds="761.596666666667,985,96.5999999999999,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="OrderDate" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=53 StartCharacterOffset=8 EndLineNumber=53 EndCharacterOffset=8)" />
+    <Node Id="@19" Category="CodeSchema_Property" Bounds="716.413333333333,928,186.966666666667,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="OrderExpectedDeliveryDate" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=54 StartCharacterOffset=8 EndLineNumber=54 EndCharacterOffset=8)" />
+    <Node Id="@20" Category="CodeSchema_Property" Bounds="760.83,221,98.1333333333334,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="OrderTotal" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=56 StartCharacterOffset=8 EndLineNumber=56 EndCharacterOffset=8)" />
+    <Node Id="@21" Category="CodeSchema_Method" Bounds="400.97,265,88.9166666666667,26" CodeSchemaProperty_IsPublic="True" CommonLabel="saveData" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="saveData" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=142 StartCharacterOffset=8 EndLineNumber=142 EndCharacterOffset=8)" />
+    <Node Id="@22" Category="CodeSchema_Property" Bounds="745.826666666667,871,128.14,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Property Assignment" Icon="Microsoft.VisualStudio.Property.Public" Label="SupplierNumber" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=55 StartCharacterOffset=8 EndLineNumber=55 EndCharacterOffset=8)" />
+    <Node Id="@23" Category="CodeSchema_Method" Bounds="559.326666666667,221,115.626666666667,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Private" Label="updateRecord" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=174 StartCharacterOffset=8 EndLineNumber=174 EndCharacterOffset=8)" />
+    <Node Id="@3" Category="CodeSchema_Namespace" Bounds="125.126666666667,555,116.126666666667,26" Icon="Microsoft.VisualStudio.Namespace.Public" Label="ChocoMambo" />
+    <Node Id="@6" Category="CodeSchema_Class" Bounds="271.253333333333,555,71.7366666666667,26" CodeSchemaProperty_IsInternal="True" CommonLabel="Order" Icon="Microsoft.VisualStudio.Class.Internal" Label="Order" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=10 StartCharacterOffset=4 EndLineNumber=10 EndCharacterOffset=4)" />
+    <Node Id="@8" Category="CodeSchema_Method" Bounds="409.56,700,71.7366666666667,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Order" FunctionTypeFlags="Constructor" Icon="Microsoft.VisualStudio.Method.Public" Label="Order" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Order.cs StartLineNumber=44 StartCharacterOffset=8 EndLineNumber=44 EndCharacterOffset=8)" />
+  </Nodes>
+  <Links>
+    <Link Source="(@1)" Target="@3" Category="Contains" Bounds="95.1266632080078,568,21,0" />
+    <Link Source="@10" Target="@13" Category="CodeSchema_Calls" Bounds="458.046203613281,669,136.738220214844,202.209045410156" />
+    <Link Source="@10" Target="@15" Category="CodeSchema_Calls" Bounds="472.586334228516,431.232421875,135.173614501953,211.767578125" />
+    <Link Source="@10" Target="@16" Category="CodeSchema_Calls" Bounds="481.296661376953,627.157348632813,76.6911926269531,19.651611328125" />
+    <Link Source="@10" Target="@17" Category="CodeSchema_Calls" Bounds="459.556518554688,669,136.832397460938,125.905944824219" />
+    <Link Source="@11" Target="@12" Category="CodeSchema_Calls" Bounds="456.814086914063,340.471527099609,136.202087402344,214.528472900391" />
+    <Link Source="@11" Target="@15" Category="CodeSchema_Calls" Bounds="459.556518554688,429.094024658203,136.832397460938,125.905975341797" />
+    <Link Source="@11" Target="@16" Category="CodeSchema_Calls" Bounds="481.296661376953,577.191040039063,76.6911926269531,19.651611328125" />
+    <Link Source="@11" Target="@17" Category="CodeSchema_Calls" Bounds="472.586334228516,581,135.173614501953,211.767578125" />
+    <Link Source="@12" Target="@14" Category="CodeSchema_Calls" Bounds="634.421630859375,195.41032409668,151.001159667969,113.58967590332" />
+    <Link Source="@12" Target="@18" Category="CodeSchema_Calls" Bounds="631.095703125,335,138.764953613281,646.5859375" />
+    <Link Source="@12" Target="@19" Category="CodeSchema_Calls" Bounds="631.1337890625,335,148.370849609375,588.511169433594" />
+    <Link Source="@12" Target="@20" Category="CodeSchema_Calls" Bounds="645.615417480469,250.737716674805,127.61865234375,58.2622833251953" />
+    <Link Source="@12" Target="@22" Category="CodeSchema_Calls" Bounds="631.179809570313,335,173.610046386719,527.238037109375" />
+    <Link Source="@13" Target="@14" Category="CodeSchema_Calls" Bounds="630.971862792969,195.300582885742,153.812561035156,681.699417114258" />
+    <Link Source="@13" Target="@18" Category="CodeSchema_Calls" Bounds="642.664184570313,903,123.0771484375,78.92041015625" />
+    <Link Source="@13" Target="@19" Category="CodeSchema_Calls" Bounds="666.272521972656,902.999572753906,85.7894897460938,22.6984252929688" />
+    <Link Source="@13" Target="@20" Category="CodeSchema_Calls" Bounds="631.01220703125,255.798126220703,174.188171386719,621.201873779297" />
+    <Link Source="@13" Target="@22" Category="CodeSchema_Calls" Bounds="669.223327636719,886.274353027344,67.607666015625,2.10443115234375" />
+    <Link Source="@21" Target="@12" Category="CodeSchema_Calls" Bounds="489.583374023438,289.314453125,68.1052856445313,17.4515380859375" />
+    <Link Source="@21" Target="@23" Category="CodeSchema_Calls" Bounds="489.583374023438,249.234008789063,68.1052856445313,17.4515380859375" />
+    <Link Source="@23" Target="@14" Category="CodeSchema_Calls" Bounds="661.10205078125,190.886291503906,101.835388183594,30.1137084960938" />
+    <Link Source="@23" Target="@18" Category="CodeSchema_Calls" Bounds="629.607666015625,247,140.327209472656,734.579345703125" />
+    <Link Source="@23" Target="@19" Category="CodeSchema_Calls" Bounds="629.633850097656,247,149.943359375,676.501159667969" />
+    <Link Source="@23" Target="@20" Category="CodeSchema_Calls" Bounds="674.953308105469,234,76.876708984375,0" />
+    <Link Source="@23" Target="@22" Category="CodeSchema_Calls" Bounds="629.664794921875,247,175.587829589844,615.197448730469" />
+    <Link Source="@3" Target="@6" Category="Contains" Bounds="241.253326416016,568,21,0" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=(Name=getRawIngredients OverloadingParameters=[(@7 Namespace=System Type=Int64),(@7 Namespace=System Type=String)]))" Category="Contains" Bounds="308.684783935547,62.0918502807617,103.260223388672,492.908149719238" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=(Name=refreshDataSet OverloadingParameters=[(@9 Namespace=System.Data Type=DataSet)]))" Category="Contains" Bounds="309.371643066406,207.087921142578,102.540496826172,347.912078857422" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=OrderLineClass)" Category="Contains" Bounds="310.155883789063,581,101.190765380859,259.978759765625" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=PKID)" Category="Contains" Bounds="338.665283203125,527.260803222656,67.3073120117188,27.7391967773438" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=deleteAllOrderLines)" Category="Contains" Bounds="308.908203125,119.129013061523,103.345153808594,435.870986938477" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=getBranch)" Category="Contains" Bounds="311.758728027344,382.894134521484,98.4684143066406,172.105865478516" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=getOrderLinesTable)" Category="Contains" Bounds="322.893493652344,472.724365234375,99.818115234375,82.275634765625" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=getSuppliers)" Category="Contains" Bounds="314.892822265625,581,110.635833740234,169.740966796875" />
+    <Link Source="@6" Target="@10" Category="Contains" Bounds="325.269500732422,581,89.3535461425781,57.5674438476563" />
+    <Link Source="@6" Target="@11" Category="Contains" Bounds="342.989990234375,568,57.5700073242188,0" />
+    <Link Source="@6" Target="@12" Category="Contains" Bounds="312.024078369141,322,234.899261474609,233" />
+    <Link Source="@6" Target="@13" Category="Contains" Bounds="310.101654052734,581,245.976898193359,316.851196289063" />
+    <Link Source="@6" Target="@14" Category="Contains" Bounds="308.577911376953,1,480.434783935547,554" />
+    <Link Source="@6" Target="@15" Category="Contains" Bounds="312.738983154297,410,226.127655029297,145" />
+    <Link Source="@6" Target="@16" Category="Contains" Bounds="342.686706542969,579.314453125,212.693298339844,32.685546875" />
+    <Link Source="@6" Target="@17" Category="Contains" Bounds="311.659759521484,581,240.546905517578,233" />
+    <Link Source="@6" Target="@18" Category="Contains" Bounds="309.014312744141,581,443.582366943359,417" />
+    <Link Source="@6" Target="@19" Category="Contains" Bounds="309.177398681641,581,399.094146728516,385" />
+    <Link Source="@6" Target="@20" Category="Contains" Bounds="309.458862304688,146,463.775207519531,409" />
+    <Link Source="@6" Target="@21" Category="Contains" Bounds="310.155883789063,295.021209716797,101.190765380859,259.978790283203" />
+    <Link Source="@6" Target="@22" Category="Contains" Bounds="309.371032714844,581,441.697204589844,353" />
+    <Link Source="@6" Target="@23" Category="Contains" Bounds="310.432647705078,234,239.894012451172,321" />
+    <Link Source="@6" Target="@8" Category="Contains" Bounds="319.521575927734,581,107.294982910156,112.487487792969" />
+    <Link Source="@8" Target="@16" Category="CodeSchema_Calls" Bounds="467.529846191406,629.562927246094,119.751098632813,70.4370727539063" />
+    <Link Source="@8" Target="@17" Category="CodeSchema_Calls" Bounds="467.529846191406,726,119.751098632813,70.4370727539063" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_Namespace" Label="Namespace" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="Namespaces" />
+    <Category Id="CodeSchema_Property" Label="Property" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Property" NavigationActionLabel="Properties" />
+    <Category Id="CodeSchema_Solution" Label="Solution" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" NavigationActionLabel="Solutions" />
+    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="Is Constructor" Description="Flag to indicate the method is a constructor" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="Is Internal" Description="Flag to indicate the method is 'Internal'" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Is Private" Description="Flag to indicate the scope is Private" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="FunctionTypeFlags" Label="FunctionTypeFlags" Description="FunctionTypeFlags" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Language" Label="Language" Description="Language" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(VsSolutionUri)/ChocoMambo.sln" />
+    <Alias n="2" Id="Namespace=ChocoMambo" />
+    <Alias n="3" Id="(@2)" />
+    <Alias n="4" Uri="Assembly=$(6e5de631-8f18-434b-912d-2241b6176985.OutputPathUri)" />
+    <Alias n="5" Id="Type=Order" />
+    <Alias n="6" Id="(@4 @2 @5)" />
+    <Alias n="7" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll" />
+    <Alias n="8" Id="(@4 @2 @5 Member=(Name=.ctor OverloadingParameters=[(@7 Namespace=System Type=Boolean)]))" />
+    <Alias n="9" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/System.Data.dll" />
+    <Alias n="10" Id="(@4 @2 @5 Member=(Name=.ctor OverloadingParameters=[(@7 Namespace=System Type=Int64),(@7 Namespace=System Type=Boolean)]))" />
+    <Alias n="11" Id="(@4 @2 @5 Member=.ctor)" />
+    <Alias n="12" Id="(@4 @2 @5 Member=addNewRecord)" />
+    <Alias n="13" Id="(@4 @2 @5 Member=assignFields)" />
+    <Alias n="14" Id="(@4 @2 @5 Member=Branch)" />
+    <Alias n="15" Id="(@4 @2 @5 Member=createRelationship)" />
+    <Alias n="16" Id="(@4 @2 @5 Member=loadDataSet)" />
+    <Alias n="17" Id="(@4 @2 @5 Member=OrderDataset)" />
+    <Alias n="18" Id="(@4 @2 @5 Member=OrderDate)" />
+    <Alias n="19" Id="(@4 @2 @5 Member=OrderExpectedDeliveryDate)" />
+    <Alias n="20" Id="(@4 @2 @5 Member=OrderTotal)" />
+    <Alias n="21" Id="(@4 @2 @5 Member=saveData)" />
+    <Alias n="22" Id="(@4 @2 @5 Member=SupplierNumber)" />
+    <Alias n="23" Id="(@4 @2 @5 Member=updateRecord)" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="6e5de631-8f18-434b-912d-2241b6176985.OutputPathUri" Value="file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/bin/Debug/ChocoMambo.exe" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+    <Path Id="VsSolutionUri" Value="file:///C:/Users/Robert/Dropbox/ChocoMambo" />
+  </Paths>
+</DirectedGraph>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1)" Category="CodeSchema_Solution" Bounds="324.381666666667,0,95.1266666666667,25.96" Label="ChocoMambo" />
+    <Node Id="(@4 @2 @5 Member=(Name=IsEmpty OverloadingParameters=[(@8 Namespace=System Type=String)]))" Category="CodeSchema_Method" Bounds="114.635,167.96,82.62,26" CodeSchemaProperty_IsPublic="True" CommonLabel="" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="IsEmpty" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Validate.cs StartLineNumber=28 StartCharacterOffset=8 EndLineNumber=28 EndCharacterOffset=8)" />
+    <Node Id="(@4 @2 @5 Member=(Name=IsValid OverloadingParameters=[(@8 Namespace=System Type=String),(@8 Namespace=System Type=String)]))" Category="CodeSchema_Method" Bounds="228.081666666667,167.96,75.7266666666666,26" CodeSchemaProperty_IsPublic="True" CommonLabel="" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="IsValid" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Validate.cs StartLineNumber=35 StartCharacterOffset=8 EndLineNumber=35 EndCharacterOffset=8)" />
+    <Node Id="(@4 @2 @5 Member=(Name=isDigit OverloadingParameters=[(@7 Namespace=System.Windows.Forms Type=KeyPressEventArgs)]))" Category="CodeSchema_Method" Bounds="557.765,167.96,74.36,26" CodeSchemaProperty_IsPublic="True" CommonLabel="isDigit" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="isDigit" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Validate.cs StartLineNumber=64 StartCharacterOffset=8 EndLineNumber=64 EndCharacterOffset=8)" />
+    <Node Id="(@4 @2 @5 Member=(Name=isDouble OverloadingParameters=[(@8 Namespace=System Type=String)]))" Category="CodeSchema_Method" Bounds="440.21,167.96,87.47,26" CodeSchemaProperty_IsPublic="True" CommonLabel="" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="isDouble" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Validate.cs StartLineNumber=53 StartCharacterOffset=8 EndLineNumber=53 EndCharacterOffset=8)" />
+    <Node Id="(@4 @2 @5 Member=(Name=isLong OverloadingParameters=[(@8 Namespace=System Type=String)]))" Category="CodeSchema_Method" Bounds="334.176666666667,167.96,75.5366666666667,26" CodeSchemaProperty_IsPublic="True" CommonLabel="" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="isLong" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Validate.cs StartLineNumber=42 StartCharacterOffset=8 EndLineNumber=42 EndCharacterOffset=8)" />
+    <Node Id="(@4 @2 @5 Member=.ctor)" Category="CodeSchema_Method" Bounds="0,167.96,83.89,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="" FunctionTypeFlags="Constructor" Icon="Microsoft.VisualStudio.Method.Public" Label="Validate" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Validate.cs StartLineNumber=15 StartCharacterOffset=8 EndLineNumber=15 EndCharacterOffset=8)" />
+    <Node Id="@3" Category="CodeSchema_Namespace" Bounds="313.881666666667,55.96,116.126666666667,26" Icon="Microsoft.VisualStudio.Namespace.Public" Label="ChocoMambo" />
+    <Node Id="@6" Category="CodeSchema_Class" Bounds="330,111.96,83.89,26" CodeSchemaProperty_IsInternal="True" CommonLabel="Validate" Icon="Microsoft.VisualStudio.Class.Internal" Label="Validate" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/Validate.cs StartLineNumber=9 StartCharacterOffset=4 EndLineNumber=9 EndCharacterOffset=4)" />
+  </Nodes>
+  <Links>
+    <Link Source="(@1)" Target="@3" Category="Contains" Bounds="371.945007324219,25.9599990844727,0,21" />
+    <Link Source="@3" Target="@6" Category="Contains" Bounds="371.945007324219,81.9599990844727,0,21" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=(Name=IsEmpty OverloadingParameters=[(@8 Namespace=System Type=String)]))" Category="Contains" Bounds="205.886734008789,135.803268432617,124.23420715332,32.2088775634766" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=(Name=IsValid OverloadingParameters=[(@8 Namespace=System Type=String),(@8 Namespace=System Type=String)]))" Category="Contains" Bounds="298.509887695313,137.960006713867,48.8279724121094,25.7958984375" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=(Name=isDigit OverloadingParameters=[(@7 Namespace=System.Windows.Forms Type=KeyPressEventArgs)]))" Category="Contains" Bounds="413.844268798828,135.481796264648,135.191741943359,33.9494934082031" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=(Name=isDouble OverloadingParameters=[(@8 Namespace=System Type=String)]))" Category="Contains" Bounds="397.945007324219,137.960006713867,51.9501342773438,25.9750671386719" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=(Name=isLong OverloadingParameters=[(@8 Namespace=System Type=String)]))" Category="Contains" Bounds="371.945007324219,137.960006713867,0,21" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=.ctor)" Category="Contains" Bounds="92.719596862793,131.513809204102,237.280403137207,38.6085052490234" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_Namespace" Label="Namespace" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="Namespaces" />
+    <Category Id="CodeSchema_Solution" Label="Solution" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" NavigationActionLabel="Solutions" />
+    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="Is Constructor" Description="Flag to indicate the method is a constructor" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="Is Internal" Description="Flag to indicate the method is 'Internal'" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="FunctionTypeFlags" Label="FunctionTypeFlags" Description="FunctionTypeFlags" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Language" Label="Language" Description="Language" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(VsSolutionUri)/ChocoMambo.sln" />
+    <Alias n="2" Id="Namespace=ChocoMambo" />
+    <Alias n="3" Id="(@2)" />
+    <Alias n="4" Uri="Assembly=$(6e5de631-8f18-434b-912d-2241b6176985.OutputPathUri)" />
+    <Alias n="5" Id="Type=Validate" />
+    <Alias n="6" Id="(@4 @2 @5)" />
+    <Alias n="7" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/System.Windows.Forms.dll" />
+    <Alias n="8" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="6e5de631-8f18-434b-912d-2241b6176985.OutputPathUri" Value="file:///C:/Users/Robert/Dropbox/ChocoMambo/ChocoMambo/bin/Debug/ChocoMambo.exe" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+    <Path Id="VsSolutionUri" Value="file:///C:/Users/Robert/Dropbox/ChocoMambo" />
+  </Paths>
+</DirectedGraph>

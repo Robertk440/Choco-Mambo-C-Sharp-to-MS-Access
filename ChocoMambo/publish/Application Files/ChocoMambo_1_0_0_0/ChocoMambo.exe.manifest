@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ChocoMambo.exe" version="1.0.0.0" publicKeyToken="a55a0ffc0f2209db" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ChocoMambo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ChocoMambo.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChocoMambo.exe" size="357376">
+      <assemblyIdentity name="ChocoMambo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>E1sMO7VQ9ytXGYCH5oKlaTwy3ir6N13yne5VTZyj4dI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DBConnection.dll" size="7680">
+      <assemblyIdentity name="DBConnection" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>o/Cz00Fi6eHS4olURatbQx/Ytt56k3o+1TX57LRCV7Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ErrorCollection.dll" size="6656">
+      <assemblyIdentity name="ErrorCollection" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qaytuypb+wGYfDyIz2fhQKQLeZRL71j/YhBfR8AhBeA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ChocoMambo.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\sales-report.ico" size="1150">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/LBPtJ9eVDleADzmzhSF7JsxfgEg8UYusSZXgPqLT1k=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Robert-WLaptop\Robert" issuerKeyHash="61713e7ff704fd3fb7b3b454369ff012e8635f6e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/6va80LMx3ULKab4yrn4nRD9On/H9sOmX1wS6wRqb0M=</DigestValue></Reference></SignedInfo><SignatureValue>WLDfXCNvmJtIje8cwIdVEJr9cZXAPGqXJUWwBkmjd2SolNejyCeTeqG1KgXtbQplU32T68gBfmsnIHrAN8tC7EuIJ+7J5xNfGSeESi2RvhTLO4i/oSFkSl4hSqWNobpER6x1kLpA7xni7euQgZpXQ/Dy2OPU6wZPThzh+wRFoSg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>szW1KjlPTurepKYs1xlfrAxZB2o5A7UzSRO0lwKn8R+1Hu7MB2TYzEO2GVjkZmU4ey68hyjNIgUWts+J9BxtB+6j+iDGH+JcnZlwvGTeAjYRKbMfXHaZmx0pUAN0PtY2JikZyil8ikBg8Vn4RONRrgi0KBJaodgb7CQCr6P8AzE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="436f6a04eb125c5fa6c3f6c77f3afd109df8b9caf8a6290b75c7cc42f3daabff" Description="" Url=""><as:assemblyIdentity name="ChocoMambo.exe" version="1.0.0.0" publicKeyToken="a55a0ffc0f2209db" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Robert-WLaptop\Robert</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>W0Lp8v+IFUMg5YKpNI8JkOnifcyvPoRfPrcvc9K+9DQ=</DigestValue></Reference></SignedInfo><SignatureValue>C7iAKzMb5glFJKDVuHBwqjBw5Sngy4C6b+6mVIL06tVEVDkzWWija1K9XDpClTmg7r45F0y2R1EznhCse2KiERl8EwvzJYDqGMufApQyz4uIA2XGJIeJtsLarMThSbhsRqx4wXfSWPMwnBLqVYwJg5Bm3iylrRng6beA01PfpCU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>szW1KjlPTurepKYs1xlfrAxZB2o5A7UzSRO0lwKn8R+1Hu7MB2TYzEO2GVjkZmU4ey68hyjNIgUWts+J9BxtB+6j+iDGH+JcnZlwvGTeAjYRKbMfXHaZmx0pUAN0PtY2JikZyil8ikBg8Vn4RONRrgi0KBJaodgb7CQCr6P8AzE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQN6EIVNtVJ5xDk4jJS6hRDzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioAUgBvAGIAZQByAHQALQBXAEwAYQBwAHQAbwBwAFwAUgBvAGIAZQByAHQwHhcNMTQwMzI2MTA0MjQ5WhcNMTUwMzI2MTY0MjQ5WjA1MTMwMQYDVQQDHioAUgBvAGIAZQByAHQALQBXAEwAYQBwAHQAbwBwAFwAUgBvAGIAZQByAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALM1tSo5T07q3qSmLNcZX6wMWQdqOQO1M0kTtJcCp/EftR7uzAdk2MxDthlY5GZlOHsuvIcozSIFFrbPifQcbQfuo/ogxh/iXJ2ZcLxk3gI2ESmzH1x2mZsdKVADdD7WNiYpGcopfIpAYPFZ+ETjUa4ItCgSWqHYG+wkAq+j/AMxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAsOIe3snIf6TwtcBnMHXANEmsn6YhnXX7O+ylYcjQDYnN7hOmf/IGxRza6Ei4LvItyUzI4/Fstv/OeoNTuLfBQBV64Cp55Mlh4GlTcc0GX105Wv1va7QXMr8YqmpU7JUwa3eE2jLtAxnF3gLasUGHj7Fk9SwKbkg/jbur2BHoRbY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

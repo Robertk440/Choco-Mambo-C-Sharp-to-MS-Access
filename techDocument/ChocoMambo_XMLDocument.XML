@@ -1,0 +1,987 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChocoMambo</name>
+    </assembly>
+    <members>
+        <member name="P:ChocoMambo.Address.BuildingNumber">
+            <summary>
+            A general class that can be inherited to provide properties RE: An Address.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.BusinessContact.ContactPerson">
+            <summary>
+            A general class that inherits the Address Class 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.ChocoMamboBMS.vts_Employee_Search_Click(System.Object,System.EventArgs)">
+            <summary>       
+            Description: Handles all the events called by the menu strip
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.ChocoMamboBMS.refreshMenuStrip(System.Boolean,System.Boolean)">
+            <summary>
+            Pre-Condition:  A boolean of a successful login
+            Post-Condition: the Enabled status on the menu strip will equal the boolean
+            Description: Sets the Enabled status on the menu strip to the boolean
+            </summary>
+            <param name="pSuccessfulLogin"></param>
+        </member>
+        <member name="M:ChocoMambo.ChocoMamboBMS.isDenied(System.String)">
+            <summary>
+            Pre-Condition: A string containing the form name to be tested
+            Post-Condition: A boolean on if the user is denied 
+            Description: Test the form name against the hash table to determines if the user is allowed access to the form. 
+            </summary>
+            <param name="pstrFormName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChocoMambo.ChocoMamboBMS.canWrite(System.String)">
+            <summary>
+            Pre-Condition: A string containing the form name to be tested
+            Post-Condition: A boolean on if the user is allowed to write to the form 
+            Description: Test the form name against the hash table to determines if the user is allowed access to the form. 
+            </summary>
+            <param name="pstrFormName"></param>
+            <returns></returns>
+        </member>
+        <member name="F:ChocoMambo.ChocoMamboBMS.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.ChocoMamboBMS.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.ChocoMamboBMS.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.Customer._lngPKID">
+            <summary>
+            Inherits the class BusinessContact
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Customer.#ctor(System.Int64)">
+            <summary>
+            Description: Constructor for the existing customer
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Customer.#ctor">
+            <summary>
+            Description: Constructor for creating an empty Customer
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Customer.loadDataSet">
+            <summary>
+            Pre-Condition: An instance of a dataset, a string tableName and long ID.
+            Post-Condition: Dataset is loaded with data relevant to the query.
+            Description:Loads a dataset with data relevant  to the query.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Customer.assignFields">
+             <summary>
+            Pre-Condition:Dataset column names match the column names described
+            Post-Condition: Properties in this class will be set to the values defined each specified column
+            Description: assigns properties to dataset cell values. 
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.Customer.getSaleManangers">
+            <summary>
+            Returns a datatable containing a list of saleManangers.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ChocoMambo.Customer.addNewRecord">
+            <summary>
+            Pre-Condition: All properties have an assigned value
+            Post-Condition: a new record is added to the table tbl_Customers 
+            Description:Adds a new record to the table tbl_Customers
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Customer.updateRecord">
+            <summary>
+            Pre-Condition: All properties have an assigned value
+            Post-Condition: The current record is updated 
+            Description:Updates the current record to the table tbl_Customers
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Employee.#ctor">
+             <summary>
+            Description: onstructor for creating an empty Employee
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.Employee.#ctor(System.Int64)">
+             <summary>
+            Description: Constructor for an existing record
+             </summary>
+             <param name="pLongID"></param>
+        </member>
+        <member name="M:ChocoMambo.Employee.loadDataSet">
+             <summary>
+            Pre-Condition:An instance of a dataset, a string tableName and long ID.
+            Post-Condition: Dataset is loaded with data relevant to the query.
+            Description: Loads a dataset with data relevant  to the query.
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.Employee.assignFields">
+             <summary>
+            Pre-Condition:Dataset column names match the column names described
+            Post-Condition: Properties in this class will be set to the values defined each specified column
+            Description: assigns properties to dataset cell values.
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.Employee.addNewRecord">
+            <summary>
+            Pre-Condition: All properties have an assigned value
+            Post-Condition: a new record is added to the table tbl_Employee
+            Description:Adds a new record to the table tbl_Employee
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Employee.updateRecord">
+            <summary>
+            Pre-Condition: All properties have an assigned value
+            Post-Condition: The current record is updated 
+            Description:Updates the current record to the table tbl_Employee
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Employee.refreshDataSet(System.Data.DataSet)">
+            <summary>
+            Description:Sets the private dataset to one passed.
+            </summary>
+            <param name="pDataset"></param>
+        </member>
+        <member name="F:ChocoMambo.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Customers.displayRecord">
+            <summary>
+            Pre-Condition: All properties have an assigned value
+            Post-Condition: The current record is set to text boxes
+            Description:Displays the current record in text boxes
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Customers.populateSaleManangersComboBox">
+            <summary>
+            Pre-Condition: Table must contain the columns "EmployeeName" and "ID"
+            Post-Condition: cbo_saleManangers filled with the names of sales manangers.
+            Description:Populates the combobox cbo_saleManangers
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Customers.ValidData">
+            <summary>
+            Pre-Condition: An instance of the class Validate.
+            Post-Condition: Data in textboxes is checked and validated.
+            Description:Checks all txtboxes for null entries and numberfields for text.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Customers.assignData">
+            <summary>
+            Pre-Condition: Textboxes are checked for correct format
+            Post-Condition: Current record equals textbox values
+            Description: Sets class properties to textbox values
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frm_Customers.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Customers.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frm_Customers.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Employee.displayRecord">
+             <summary>
+            Pre-Condition:All properties have an assigned value
+            Post-Condition:The current record is set to text boxes
+            Description:Displays the current record in text boxes
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Employee.ValidData">
+             <summary>
+            Pre-Condition:An instance of the class Validate.
+            Post-Condition:Data in textboxes is checked and validated.
+            Description:Checks all txtboxes for null entries and numberfields for text.
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:ChocoMambo.frm_Employee.assignData">
+             <summary>
+            Pre-Condition:Textboxes are checked for correct format
+            Post-Condition:Current record equals textbox values
+            Description:Sets class properties to textbox values
+             </summary>
+        </member>
+        <member name="F:ChocoMambo.frm_Employee.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Employee.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frm_Employee.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_login.allowLogin">
+             <summary>
+            Pre-Condition: Login table has valid users
+            Post-Condition: boolean of successful login
+            Description: tests user entered data against records kept to see if valid login
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:ChocoMambo.frm_login.IsAdmin(System.Int64)">
+             <summary>
+            Pre-Condition: A long with an assigned value greator than one
+            Post-Condition: True or false of is user an admin
+            Description: reads dataset and determines if admin or not
+             </summary>
+             <param name="plngPKID"></param>
+             <returns></returns>
+        </member>
+        <member name="M:ChocoMambo.frm_login.getAccessRightHashTable">
+            <summary>
+            Description: Fills hashtable with permissions of logged in user.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:ChocoMambo.frm_login.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_login.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frm_login.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Order.displayRecord">
+             <summary>
+            Pre-Condition:All properties have an assigned value
+            Post-Condition:The current record is set to text boxes
+            Description:Displays the current record in text boxes
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Order.intComboBox">
+             <summary>
+            Description: Calls populate combobox methods
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Order.populateSupplierComboBox">
+             <summary>
+            Description: populates Supplier combo box
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Order.populateRawIngredientsComboBox(System.Int64)">
+             <summary>
+            Pre-Condition: A supplier is selected
+            Post-Condition: Combobox is filled with Raw Ingredients related to the supplier id passed
+            Description: fills a combobox with Raw Ingredients related to the supplier id passed
+             </summary>
+             <param name="pLongSupplierID"></param>
+        </member>
+        <member name="M:ChocoMambo.frm_Order.populateBranchComboBox">
+             <summary>
+            Description:populates the branch Combobox
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Order.SaleTotal">
+             <summary>
+            Description: Sums the "OrderLineSubTotal" colummn of the dataset and returns the value
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:ChocoMambo.frm_Order.assignData">
+             <summary>
+            Pre-Condition:Textboxes are checked for correct format
+            Post-Condition:Current record equals textbox values
+            Description:Sets class properties to textbox values
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Order.assignChildData">
+             <summary>
+            Pre-Condition:Textboxes are checked for correct format
+            Post-Condition:Child data associated with current record is assigned
+            Description:Sets Assigns child data associated with current record
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Order.update_dgvSupplierDetails(ChocoMambo.Supplier)">
+             <summary>
+            Description:Updates the datagrid view with data related to the selected Supplier
+             </summary>
+             <param name="supplier"></param>
+        </member>
+        <member name="F:ChocoMambo.frm_Order.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Order.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frm_Order.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo.frm_Permissions.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Permissions.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frm_Permissions.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Product.ValidData">
+             <summary>
+            Pre-Condition:An instance of the class Validate.
+            Post-Condition:Data in textboxes is checked and validated.
+            Description:Checks all txtboxes for null entries and numberfields for text.
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:ChocoMambo.frm_Product.displayRecord">
+             <summary>
+            Pre-Condition:All properties have an assigned value
+            Post-Condition:The current record is set to text boxes
+            Description:Displays the current record in text boxes
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Product.assignData">
+             <summary>
+            Pre-Condition:Textboxes are checked for correct format
+            Post-Condition:Current record equals textbox values
+            Description:Sets class properties to textbox values
+             </summary>
+        </member>
+        <member name="F:ChocoMambo.frm_Product.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Product.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frm_Product.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_RawIngredients.ValidData">
+             <summary>
+            Pre-Condition:An instance of the class Validate.
+            Post-Condition:Data in textboxes is checked and validated.
+            Description:Checks all txtboxes for null entries and numberfields for text.
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:ChocoMambo.frm_RawIngredients.populateSupplierComboBox">
+             <summary>
+            Description:Populates Supplier comboBox
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_RawIngredients.displayRecord">
+             <summary>
+            Pre-Condition:All properties have an assigned value
+            Post-Condition:The current record is set to text boxes
+            Description:Displays the current record in text boxes
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_RawIngredients.assignData">
+             <summary>
+            Pre-Condition:Textboxes are checked for correct format
+            Post-Condition:Current record equals textbox values
+            Description:Sets class properties to textbox values
+             </summary>
+        </member>
+        <member name="F:ChocoMambo.frm_RawIngredients.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_RawIngredients.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frm_RawIngredients.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Sale.SaleTotal">
+             <summary>
+            Description: Sums the "SaleLineTotal" colummn of the dataset and returns the value
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:ChocoMambo.frm_Sale.GetCustomerAddress">
+             <summary>
+            Description: Gets the items related to the customers address and concatenates the information in a string
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:ChocoMambo.frm_Sale.populateCustomerComboBox">
+             <summary>
+            Description: Populates the Customer combobox
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Sale.populateProductComboBox">
+             <summary>
+            Description: Populates the Product combobox
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Sale.populateSaleRepComboBox">
+             <summary>
+            Description: Populates the SaleRep combobox
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Sale.displayRecord">
+             <summary>
+            Pre-Condition:All properties have an assigned value
+            Post-Condition:The current record is set to text boxes
+            Description:Displays the current record in text boxes
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Sale.assignChildData">
+             <summary>
+            Pre-Condition:Textboxes are checked for correct format
+            Post-Condition:Child data associated with current record is assigned
+            Description:Sets Assigns child data associated with current record
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Sale.assignData">
+             <summary>
+            Pre-Condition:Textboxes are checked for correct format
+            Post-Condition:Current record equals textbox values
+            Description:Sets class properties to textbox values
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Sale.update_dgvCustomerDetails(ChocoMambo.Customer)">
+            <summary>
+            Description:Updates the datagrid view with data related to the selected Customer
+            </summary>
+            <param name="customer"></param>
+        </member>
+        <member name="F:ChocoMambo.frm_Sale.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Sale.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frm_Sale.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Suppliers.displayRecord">
+             <summary>
+            Pre-Condition:All properties have an assigned value
+            Post-Condition:The current record is set to text boxes
+            Description:Displays the current record in text boxes
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Suppliers.ValidData">
+             <summary>
+            Pre-Condition:An instance of the class Validate.
+            Post-Condition:Data in textboxes is checked and validated.
+            Description:Checks all txtboxes for null entries and numberfields for text.
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:ChocoMambo.frm_Suppliers.assignData">
+             <summary>
+            Pre-Condition:Textboxes are checked for correct format
+            Post-Condition:Current record equals textbox values
+            Description:Sets class properties to textbox values
+             </summary>
+        </member>
+        <member name="F:ChocoMambo.frm_Suppliers.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Suppliers.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frm_Suppliers.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Order.loadDataSet">
+             <summary>
+            Pre-Condition:An instance of a dataset, a string tableName and long ID.
+            Post-Condition: Dataset is loaded with data relevant to the query.
+            Description: Loads a dataset with data relevant  to the query.
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.Order.createRelationship">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will create the relationship between Orders and OrderLines tables.
+            Description:    This method will create the relationship in the dataset between tblOrders and tblOrderLines.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Order.getRawIngredients(System.Int64,System.String)">
+             <summary>
+            Pre-Condition: Supplier selected
+            Post-Condition: DataTable filled with Raw Ingredients related to the selected supplier
+            Description: Fills a datatable with Raw Ingredients related to the selected supplier
+             </summary>
+             <param name="pLongSupplierID"></param>
+             <param name="pstrTableName"></param>
+             <returns></returns>
+        </member>
+        <member name="M:ChocoMambo.Order.getSuppliers">
+             <summary>
+            Description: Fills a datatable with Suppliers
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:ChocoMambo.Order.getBranch">
+             <summary>
+            Description: Fills a datatable with Branch details
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:ChocoMambo.Order.getOrderLinesTable">
+             <summary>
+            Description: Fills a datatable with OrderLines related to the currentOrder
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:ChocoMambo.Order.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will assign the field values to its' respective properties
+            Description:    This method will assign the field values to its' respective properties.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Order.addNewRecord">
+             <summary>
+            Pre-Condition:All properties have an assigned value
+            Post-Condition:a new record is added to the table associated with the class 
+            Description:Adds a new record to the table associated with the class
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.Order.updateRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will update the selected record in the dataset.
+            Description:    This method will update the selected record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.OrderLines.loadDataSet">
+             <summary>
+            Pre-Condition:An instance of a dataset, a string tableName and long ID.
+            Post-Condition: Dataset is loaded with data relevant to the query.
+            Description: Loads a dataset with data relevant  to the query.
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.OrderLines.assignFields">
+             <summary>
+            Pre-Condition:Dataset column names match the column names described
+            Post-Condition: Properties in this class will be set to the values defined each specified column
+            Description: assigns properties to dataset cell values.
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.OrderLines.addNewRecord">
+             <summary>
+            Pre-Condition:All properties have an assigned value
+            Post-Condition:a new record is added to the table associated with the class 
+            Description:Adds a new record to the table associated with the class
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.OrderLines.updateRecord">
+             <summary>
+            Pre-Condition: All properties have an assigned value
+            Post-Condition:The current record is updated 
+            Description:Updates the current record to the table associated with the class
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.OrderLines.deleteOrderLine(System.Int64)">
+             <summary>
+            Pre-Condition: orderline selected
+            Post-Condition: selected orderline deleted
+            Description: deletes selected orderline
+             </summary>
+             <param name="pLongPKID"></param>
+        </member>
+        <member name="M:ChocoMambo.Product.loadDataSet">
+             <summary>
+            Pre-Condition:An instance of a dataset, a string tableName and long ID.
+            Post-Condition: Dataset is loaded with data relevant to the query.
+            Description: Loads a dataset with data relevant  to the query.
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.Product.assignFields">
+             <summary>
+            Pre-Condition:Dataset column names match the column names described
+            Post-Condition: Properties in this class will be set to the values defined each specified column
+            Description: assigns properties to dataset cell values.
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.Product.addNewRecord">
+             <summary>
+            Pre-Condition:All properties have an assigned value
+            Post-Condition:a new record is added to the table associated with the class 
+            Description:Adds a new record to the table associated with the class
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.Product.updateRecord">
+             <summary>
+            Pre-Condition: All properties have an assigned value
+            Post-Condition:The current record is updated 
+            Description:Updates the current record to the table associated with the class
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Search.setDGVproperties">
+             <summary>
+            Pre-Condition:Dataset is loaded to the data grid view
+            Post-Condition: properties are set to the  data grid view
+            Description: Hides selected columns
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Search.displaySearchResults">
+             <summary>
+            Pre-Condition: Dataset is passed to the class and assigned to a private dataset
+            Post-Condition: data grid view is filled with the data from the dataset
+            Description:Assigned The dataSource of the data grid view
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Search.searchID">
+             <summary>
+            Description: gets the id of the selected information in the data grid view
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:ChocoMambo.frm_Search.openSelected(System.Int64)">
+             <summary>
+            Pre-Condition: A cell is selected
+            Post-Condition: A form is opened filled with the data of the selected row
+            Description: Opens a form associated with the selected cell and information in the data grid view
+             </summary>
+             <param name="pkID"></param>
+        </member>
+        <member name="F:ChocoMambo.frm_Search.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.frm_Search.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo.frm_Search.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.RawIngredient.loadDataSet">
+             <summary>
+            Pre-Condition:An instance of a dataset, a string tableName and long ID.
+            Post-Condition: Dataset is loaded with data relevant to the query.
+            Description: Loads a dataset with data relevant  to the query.
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.RawIngredient.assignFields">
+             <summary>
+            Pre-Condition:Dataset column names match the column names described
+            Post-Condition: Properties in this class will be set to the values defined each specified column
+            Description: assigns properties to dataset cell values.
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.RawIngredient.addNewRecord">
+             <summary>
+            Pre-Condition:All properties have an assigned value
+            Post-Condition:a new record is added to the table associated with the class 
+            Description:Adds a new record to the table associated with the class
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.RawIngredient.updateRecord">
+             <summary>
+            Pre-Condition: All properties have an assigned value
+            Post-Condition:The current record is updated 
+            Description:Updates the current record to the table associated with the class
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.Sale.loadDataSet">
+             <summary>
+            Pre-Condition:An instance of a dataset, a string tableName and long ID.
+            Post-Condition: Dataset is loaded with data relevant to the query.
+            Description: Loads a dataset with data relevant  to the query.
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.Sale.createRelationship">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will create the relationship between Orders and OrderLines tables.
+            Description:    This method will create the relationship in the dataset between tblOrders and tblOrderLines.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Sale.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will assign the field values to its' respective properties
+            Description:    This method will assign the field values to its' respective properties.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.Sale.addNewRecord">
+             <summary>
+            Pre-Condition:All properties have an assigned value
+            Post-Condition:a new record is added to the table associated with the class 
+            Description:Adds a new record to the table associated with the class
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.Sale.updateRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will update the selected record in the dataset.
+            Description:    This method will update the selected record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo.SaleLine.loadDataSet">
+             <summary>
+            Pre-Condition:An instance of a dataset, a string tableName and long ID.
+            Post-Condition: Dataset is loaded with data relevant to the query.
+            Description: Loads a dataset with data relevant  to the query.
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.SaleLine.assignFields">
+             <summary>
+            Pre-Condition:Dataset column names match the column names described
+            Post-Condition: Properties in this class will be set to the values defined each specified column
+            Description: assigns properties to dataset cell values.
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.SaleLine.addNewRecord">
+             <summary>
+            Pre-Condition:All properties have an assigned value
+            Post-Condition:a new record is added to the table associated with the class 
+            Description:Adds a new record to the table associated with the class
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.SaleLine.updateRecord">
+             <summary>
+            Pre-Condition: All properties have an assigned value
+            Post-Condition:The current record is updated 
+            Description:Updates the current record to the table associated with the class
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.SaleLine.deleteSaleLine(System.Int64)">
+             <summary>
+            Description: Sets the private dataset to one passed.
+             </summary>
+             <param name="pLongPKID"></param>
+        </member>
+        <member name="M:ChocoMambo.Supplier.loadDataSet">
+             <summary>
+            Pre-Condition:An instance of a dataset, a string tableName and long ID.
+            Post-Condition: Dataset is loaded with data relevant to the query.
+            Description: Loads a dataset with data relevant  to the query.
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.Supplier.assignFields">
+             <summary>
+            Pre-Condition:Dataset column names match the column names described
+            Post-Condition: Properties in this class will be set to the values defined each specified column
+            Description: assigns properties to dataset cell values.
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.Supplier.addNewRecord">
+             <summary>
+            Pre-Condition:All properties have an assigned value
+            Post-Condition:a new record is added to the table associated with the class 
+            Description:Adds a new record to the table associated with the class
+             </summary>
+        </member>
+        <member name="M:ChocoMambo.Supplier.updateRecord">
+             <summary>
+            Pre-Condition: All properties have an assigned value
+            Post-Condition:The current record is updated 
+            Description:Updates the current record to the table associated with the class
+             </summary>
+        </member>
+        <member name="T:ChocoMambo.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.add_icon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.Calendar_icon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.chocolate">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.ChocoMamboLoginScreen">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.close">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.customer">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.employee">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.Files_Edit_file_icon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.industry_icon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.ingredients">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.order">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.Recycle_Bin_icon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.sales_report">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.save">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.Search_icon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.supplier">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo.Properties.Resources.trash">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>

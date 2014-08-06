@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="High" Text="Code generation or text transformation started." />
+  <Error Timestamp="2014-03-21T14:24:43" Importance="High" Text="No templates were found to process.  Configure templates by choosing 'Configure Default Code Generation Settings...' from the 'Architecture' menu, or change the selection for which code generation is launched." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="The selection included 68 elements which were not bound to a template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo' -  (Package): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::Address' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::BusinessContact' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::ChocoMamboBMS' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::Customer' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::Employee' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::Order' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::OrderLines' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::Product' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::Program' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::RawIngredient' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::Sale' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::SaleLine' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::Supplier' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::Validate' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::frmSplash' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::frm_Customers' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::frm_Employee' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::frm_Order' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::frm_Permissions' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::frm_Product' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::frm_RawIngredients' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::frm_Sale' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::frm_Search' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::frm_Suppliers' -  (Class): no bound template." />
+  <Warning Timestamp="2014-03-21T14:24:43" Importance="Medium" Text="'chocomamboModelingProject::ChocoMambo::frm_login' -  (Class): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="Diagnostic" Text="'chocomamboModelingProject::ChocoMambo::' -  (Association): no bound template." />
+  <Message Timestamp="2014-03-21T14:24:43" Importance="High" Text="Code generation complete. Errors: 1. Warnings: 25." />
+</Log>

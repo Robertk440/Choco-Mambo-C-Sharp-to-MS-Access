@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1)" Category="CodeSchema_Solution" Bounds="674.506666666667,0,95.1266666666667,25.96" Label="ChocoMambo" />
+    <Node Id="(@4 @2 @5 Member=(Name=.ctor OverloadingParameters=[@8]))" Category="CodeSchema_Method" Bounds="242.183333333333,167.96,115.773333333333,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="dbConnection" FunctionTypeFlags="Constructor" Icon="Microsoft.VisualStudio.Method.Public" Label="dbConnection" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/DBConnection/dbConnection.cs StartLineNumber=29 StartCharacterOffset=8 EndLineNumber=29 EndCharacterOffset=8)" />
+    <Node Id="(@4 @2 @5 Member=(Name=GetDataTable OverloadingParameters=[@8,@8]))" Category="CodeSchema_Method" Bounds="388.62,167.96,112.9,26" CodeSchemaProperty_IsPublic="True" CommonLabel="GetDataTable" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="GetDataTable" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/DBConnection/dbConnection.cs StartLineNumber=57 StartCharacterOffset=8 EndLineNumber=57 EndCharacterOffset=8)" />
+    <Node Id="(@4 @2 @5 Member=(Name=GetDataTable OverloadingParameters=[@8]))" Category="CodeSchema_Method" Bounds="531.62,167.96,112.9,26" CodeSchemaProperty_IsPublic="True" CommonLabel="GetDataTable" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="GetDataTable" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/DBConnection/dbConnection.cs StartLineNumber=107 StartCharacterOffset=8 EndLineNumber=107 EndCharacterOffset=8)" />
+    <Node Id="(@4 @2 @5 Member=(Name=fillDataSet OverloadingParameters=[(@9 Namespace=System.Data Type=DataSet),@8,@8]))" Category="CodeSchema_Method" Bounds="674.626666666667,167.96,94.8866666666667,26" CodeSchemaProperty_IsPublic="True" CommonLabel="fillDataSet" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="fillDataSet" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/DBConnection/dbConnection.cs StartLineNumber=148 StartCharacterOffset=8 EndLineNumber=148 EndCharacterOffset=8)" />
+    <Node Id="(@4 @2 @5 Member=_dbConn)" Category="CodeSchema_Field" Bounds="0,167.96,88.14,26" CodeSchemaProperty_IsPrivate="True" Icon="Microsoft.VisualStudio.Field.Private" Label="_dbConn" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/DBConnection/dbConnection.cs StartLineNumber=15 StartCharacterOffset=24 EndLineNumber=15 EndCharacterOffset=24)" />
+    <Node Id="(@4 @2 @5 Member=_strDBFile)" Category="CodeSchema_Field" Bounds="118.791666666667,167.96,92.5566666666667,26" CodeSchemaProperty_IsPrivate="True" Icon="Microsoft.VisualStudio.Field.Private" Label="_strDBFile" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/DBConnection/dbConnection.cs StartLineNumber=16 StartCharacterOffset=15 EndLineNumber=16 EndCharacterOffset=15)" />
+    <Node Id="@10" Category="CodeSchema_Method" Bounds="858.271666666667,223.96,125.596666666667,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="OnRowUpdated" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Private" Label="OnRowUpdated" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/DBConnection/dbConnection.cs StartLineNumber=257 StartCharacterOffset=8 EndLineNumber=257 EndCharacterOffset=8)" />
+    <Node Id="@11" Category="CodeSchema_Method" Bounds="799.971666666667,167.96,90.1966666666667,26" CodeSchemaProperty_IsPublic="True" CommonLabel="SaveData" FunctionTypeFlags="Method" Icon="Microsoft.VisualStudio.Method.Public" Label="SaveData" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/DBConnection/dbConnection.cs StartLineNumber=215 StartCharacterOffset=8 EndLineNumber=215 EndCharacterOffset=8)" />
+    <Node Id="@3" Category="CodeSchema_Namespace" Bounds="663.596666666667,55.96,116.946666666667,26" Icon="Microsoft.VisualStudio.Namespace.Public" Label="DBConnection" />
+    <Node Id="@6" Category="CodeSchema_Class" Bounds="664.183333333333,111.96,115.773333333333,26" CodeSchemaProperty_IsPublic="True" CommonLabel="dbConnection" Icon="Microsoft.VisualStudio.Class.Public" Label="dbConnection" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Robert/Dropbox/ChocoMambo/DBConnection/dbConnection.cs StartLineNumber=11 StartCharacterOffset=4 EndLineNumber=11 EndCharacterOffset=4)" />
+  </Nodes>
+  <Links>
+    <Link Source="(@1)" Target="@3" Category="Contains" Bounds="722.070007324219,25.9599990844727,0,21" />
+    <Link Source="@11" Target="@10" Category="CodeSchema_FunctionPointer" Bounds="862.712829589844,193.960006713867,33.4688110351563,24.6612091064453" />
+    <Link Source="@3" Target="@6" Category="Contains" Bounds="722.070007324219,81.9599990844727,0,21" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=(Name=.ctor OverloadingParameters=[@8]))" Category="Contains" Bounds="366.804351806641,131.843322753906,297.378997802734,37.2128448486328" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=(Name=GetDataTable OverloadingParameters=[@8,@8]))" Category="Contains" Bounds="510.021820068359,136.568206787109,154.628997802734,31.2607421875" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=(Name=GetDataTable OverloadingParameters=[@8]))" Category="Contains" Bounds="627.481140136719,137.960006713867,63.481689453125,26.5296630859375" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=(Name=fillDataSet OverloadingParameters=[(@9 Namespace=System.Data Type=DataSet),@8,@8]))" Category="Contains" Bounds="722.070007324219,137.960006713867,0,21" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=_dbConn)" Category="Contains" Bounds="95.8214340209961,128.234970092773,568.361915588379,38.7407531738281" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=_strDBFile)" Category="Contains" Bounds="219.587631225586,129.26594543457,444.595718383789,38.2876892089844" />
+    <Link Source="@6" Target="@10" Category="Contains" Bounds="778.821960449219,137.309631347656,142.248046875,77.6503753662109" />
+    <Link Source="@6" Target="@11" Category="Contains" Bounds="750.623596191406,137.960006713867,57.7018432617188,26.270751953125" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Field" Label="Field" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Fields" />
+    <Category Id="CodeSchema_FunctionPointer" Label="Function Pointer" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Function Pointers" OutgoingActionLabel="Function Pointers" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_Namespace" Label="Namespace" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="Namespaces" />
+    <Category Id="CodeSchema_Solution" Label="Solution" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" NavigationActionLabel="Solutions" />
+    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="Is Constructor" Description="Flag to indicate the method is a constructor" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Is Private" Description="Flag to indicate the scope is Private" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="FunctionTypeFlags" Label="FunctionTypeFlags" Description="FunctionTypeFlags" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Language" Label="Language" Description="Language" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(VsSolutionUri)/ChocoMambo.sln" />
+    <Alias n="2" Id="Namespace=DBConnection" />
+    <Alias n="3" Id="(@2)" />
+    <Alias n="4" Uri="Assembly=$(64f134d1-66db-4d70-94c8-201d889e1748.OutputPathUri)" />
+    <Alias n="5" Id="Type=dbConnection" />
+    <Alias n="6" Id="(@4 @2 @5)" />
+    <Alias n="7" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll" />
+    <Alias n="8" Id="(@7 Namespace=System Type=String)" />
+    <Alias n="9" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/System.Data.dll" />
+    <Alias n="10" Id="(@4 @2 @5 Member=(Name=OnRowUpdated OverloadingParameters=[(@7 Namespace=System Type=Object),(@9 Namespace=System.Data.OleDb Type=OleDbRowUpdatedEventArgs)]))" />
+    <Alias n="11" Id="(@4 @2 @5 Member=(Name=SaveData OverloadingParameters=[(@9 Namespace=System.Data Type=DataSet),@8]))" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="64f134d1-66db-4d70-94c8-201d889e1748.OutputPathUri" Value="file:///C:/Users/Robert/Dropbox/ChocoMambo/DBConnection/bin/Debug/DBConnection.dll" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+    <Path Id="VsSolutionUri" Value="file:///C:/Users/Robert/Dropbox/ChocoMambo" />
+  </Paths>
+</DirectedGraph>

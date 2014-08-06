@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7b8b8409-413e-44a7-9c71-52614b72aa6a}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>chocomamboModelingProject</Name>
+    <RootNamespace>chocomamboModelingProject</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="ChocoMamboAddressClassMap.dgml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ChocoMamboAssemblyDependencies.dgml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ChocoMamboBusinessContactClassMap.dgml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ChocoMamboClassMap.dgml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ChocoMamboCustomerClassMap.dgml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ChocoMamboDBConnectionClassMap.dgml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ChocoMamboEmployeeClassMap.dgml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ChocoMamboOrderClassMap.dgml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ChocoMamboOrderLinesClassMap.dgml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ChocoMamboProductClassMap.dgml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ChocoMamboRawIngredientClassMap.dgml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ChocoMamboSaleClassMap.dgml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ChocoMamboSaleLinesClassMap.dgml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ChocoMamboSupplierClassMap.dgml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ChocoMamboValidateClassMap.dgml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1408.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1408.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_1408.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_1408.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package5_1408.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package6_1408.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package7_1408.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1408.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1409.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\chocomamboModelingProject.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+</Project>
